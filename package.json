@@ -1,0 +1,30 @@
+{
+  "name": "mooc-admin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "element-plus": "^2.3.8",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.64.1",
+    "vite": "^4.4.6"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "vue/no-multiple-template-root": "off"
+    }
+  }
+}
